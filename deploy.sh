@@ -74,7 +74,7 @@ echo Handling react app deployment.
 if [ -e "$DEPLOYMENT_SOURCE/package.json" ]; then
   cd "$DEPLOYMENT_SOURCE"
   echo "Running npm install"
-  eval npm install
+  eval npm install  --force
   exitWithMessageOnError "npm failed"
   echo "Building react app"
   eval npm run build
