@@ -24,7 +24,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "kuduscript": "1.0.17"
+    "kuduscript": "^1.0.17"
   },
   "license": "Who Knows",
   "engines": {
